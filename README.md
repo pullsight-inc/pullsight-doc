@@ -279,8 +279,6 @@ cosign verify \
   --certificate-identity "https://github.com/pullsight-inc/pullsight/.github/workflows/release.yml@refs/heads/main" \
   --certificate-oidc-issuer "https://token.actions.githubusercontent.com" \
   ghcr.io/pullsight-inc/pullsight-api:vX.Y.Z
-
-gh attestation verify oci://ghcr.io/pullsight-inc/pullsight-api:vX.Y.Z --owner pullsight-inc
 ```
 
 ## License
