@@ -1,6 +1,6 @@
 # Pullsight
 
-Pullsight reviews pull requests with an LLM that sees the repository context, your review rules, and the diff. A self-host install runs the database, the API, the review worker, and the web dashboard on your own host.
+Pullsight reviews pull requests with an LLM that sees the repository context, your review rules, and the diff. The official website is [pullsight.dev](https://pullsight.dev). A self-host install runs the database, the API, the review worker, and the web dashboard on your own host.
 
 The supported pin is an immutable release tag, `vX.Y.Z` or a prerelease such as `vX.Y.Z-rc.N`. Use the same tag for all three images. `latest` moves only when a stable release is published; do not pin production to it.
 
